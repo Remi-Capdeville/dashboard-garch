@@ -17,6 +17,8 @@ from functools import lru_cache
 from dash import Dash, html, dcc, Input, Output, State, no_update, callback_context
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 # Modeling
 from arch import arch_model
