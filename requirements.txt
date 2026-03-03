@@ -1,10 +1,6 @@
-dash
-dash-bootstrap-components
+streamlit
 pandas
 numpy
 yfinance
 arch
-statsmodels
-scipy
 plotly
-gunicorn
